@@ -342,7 +342,7 @@ html_notebook_knitr_options <- function() {
 
   # generic hooks for knitr output
   hook_names <- c("source", "chunk", "plot", "text", "output",
-                 "warning", "error", "message", "error")
+                 "warning", "inline", "message", "error")
 
   meta_hooks <- list(
     source  = html_notebook_text_hook,
